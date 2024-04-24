@@ -14,5 +14,32 @@ body{
     color: var(--branco);
     font-family: 'embed code',sans-serif;  
 }
+.couteudo-principal{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
 
+.titulo-principal {
+    text-align:left ; 
+    width: 100%;
+    font-size: 32px;
+}
 
+.couteudo-principal span{
+    color:var(--verde)
+}
+.botao{
+    font-family: crakra petch,sans-serif;
+    background-color: var(--botao-inativo);
+    color: var(--branco);display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    
